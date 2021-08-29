@@ -1,0 +1,123 @@
+﻿#cd /sys/class/gpio/
+#ls
+export qpiochip490 unexport
+
+
+#姚麟奕 13111（1101 0110 1111）：
+echo 490 > export
+echo out > gpio490/direction
+echo 1 > gpio490/value
+echo 491 > export
+echo out > gpio491/direction
+echo 1 > gpio491/value
+echo 492> export
+echo out > gpio492/direction
+echo 1 > gpio492/value
+echo 493> export
+echo out > gpio493/direction
+echo 1 > gpio493/value
+echo 495 > export
+echo out > gpio495/direction
+echo 1 > gpio495/value
+echo 496 > export
+echo out > gpio496/direction
+echo 1 > gpio496/value
+echo 498 > export
+echo out > gpio498/direction
+echo 1 > gpio498/value
+echo 500 > export
+echo out > gpio500/direction
+echo 1 > gpio500/value
+echo 501 > export
+echo out > gpio501/direction
+echo 1 > gpio501/value
+
+
+#马啸霄 13231（1101 1110 0111）：
+echo 490> export
+echo out > gpio490/direction
+echo 1 > gpio490/value
+echo 491> export
+echo out > gpio491/direction
+echo 1 > gpio491/value
+echo 492> export
+echo out > gpio492/direction
+echo 1 > gpio492/value
+echo 495> export
+echo out > gpio495/direction
+echo 1 > gpio495/value
+echo 496> export
+echo out > gpio496/direction
+echo 1 > gpio496/value
+echo 497> export
+echo out > gpio497/direction
+echo 1 > gpio497/value
+echo 498 > export
+echo out > gpio498/direction
+echo 1 > gpio498/value
+echo 500 > export
+echo out > gpio500/direction
+echo 1 > gpio500/value
+echo 501 > export
+echo out > gpio501/direction
+echo 1 > gpio501/value
+
+
+#李中昊 13117（1101 0111 0101）：
+echo 490> export
+echo out > gpio490/direction
+echo 1 > gpio490/value
+echo 492> export
+echo out > gpio492/direction
+echo 1 > gpio492/value
+echo 494> export
+echo out > gpio494/direction
+echo 1 > gpio494/value
+echo 495> export
+echo out > gpio495/direction
+echo 1 > gpio495/value
+echo 496> export
+echo out > gpio496/direction
+echo 1 > gpio496/value
+echo 498 > export
+echo out > gpio498/direction
+echo 1 > gpio498/value
+echo 500 > export
+echo out > gpio500/direction
+echo 1 > gpio500/value
+echo 501 > export
+echo out > gpio501/direction
+echo 1 > gpio501/value
+
+
+#范子辰 13407（1101 0001 1001 0111）：
+echo 490> export
+echo out > gpio490/direction
+echo 1 > gpio490/value
+echo 491> export
+echo out > gpio491/direction
+echo 1 > gpio491/value
+echo 492> export
+echo out > gpio492/direction
+echo 1 > gpio492/value
+echo 494> export
+echo out > gpio494/direction
+echo 1 > gpio494/value
+echo 497> export
+echo out > gpio497/direction
+echo 1 > gpio497/value
+echo 498> export
+echo out > gpio498/direction
+echo 1 > gpio498/value
+echo 502 > export
+echo out > gpio502/direction
+echo 1 > gpio502/value
+echo 504 > export
+echo out > gpio504/direction
+echo 1 > gpio504/value
+echo 505 > export
+echo out > gpio505/direction
+echo 1 > gpio505/value
+
+
+

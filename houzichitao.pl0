@@ -1,0 +1,13 @@
+var m,n,t;
+begin
+	read(n);
+	t := n;
+	m := 1;
+while t#0 do
+  begin 
+	m := m+1;
+	m := m*2;
+	t := t-1;
+  end;
+write(m);
+end.

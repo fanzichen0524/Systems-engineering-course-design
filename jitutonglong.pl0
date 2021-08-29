@@ -1,0 +1,9 @@
+var a,b,m,n;
+begin
+	read(n);
+	read(m);
+	a := ( 4 * n - m ) / 2;
+	b := n - a;
+	write(a);
+	write(b);
+end.
